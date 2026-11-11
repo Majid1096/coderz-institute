@@ -1,0 +1,21 @@
+1- I used <title> element for browser tap
+2- I used <h1> for the title in the page
+
+*The Paths:
+الرئيسية: index.html
+الكورسات: pages/courses.html
+تواصل معنا: pages/contact.html
+
+The Pages Paths:
+الرئيسية: ../index.html
+الكورسات: courses.html
+تواصل معنا: contact.html
+
+الصورة courses.html: ../images/course-cover.jpg
+
+رابط متطلبات الكورس من الصفحة الرئيسية: pages/courses.html#requirements
+العنصر الذي يحدد موضع القسم: id="requirements" على عنوان <h2> في courses.html
+الرابط إلى البريد: mailto:registration@example.com
+الرابط التعليمي بفتح في تاب جديد باستخدام target="_blank".
+عند الضغط على رابط "الرئيسية" من contact.html انتقل المتصفح إلى index.html وعرض الصفحة الرئيسية لأن المسار هو ../index.html.
+وعند الضغط على رابط المصدر التعليمي بفتح الموقع MDN في تبويب جديد وبقيت صفحة التواصل مفتوحة.

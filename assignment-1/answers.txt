@@ -1,0 +1,2 @@
+1- I used <title> element for browser tap
+2- I used <h1> for the title in the page
