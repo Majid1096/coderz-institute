@@ -1,6 +1,6 @@
 CSS File Paths:
 - index.html: style.css
-- pages/courses.html: ../assignment1/style.css
+- pages/courses.html: ../style.css
 
 Selector for Full Course Status:
 
