@@ -1,0 +1,38 @@
+1- Purple: The Explanaing is the element have own id
+#course-title {
+    color: purple;
+}
+
+
+
+2-
+/* #course-title { color: purple; } */
+.title { color: green; }
+h1 { color: navy; }
+.course-card { color: #374151; }
+.title { color: orange; }
+
+on this case it was orange because it have the class and in css we have two styles and the second one replaced the first one
+
+/* #course-title { color: purple; } */
+.title { color: orange; }
+.title { color: green; }
+h1 { color: navy; }
+.course-card { color: #374151; }
+
+on this case it was green because it have the class and in css we have two styles and the second one replaced the first one
+
+
+3- 
+i wrote this rule:
+.course-card > p { color: teal; }
+I choose Child Combinator because its target only the child and the p inside it directly
+
+
+4- the links
+i used this rules
+a:hover         { outline: 3px solid black; outline-offset: 3px; }
+a:focus-visible { outline: 3px solid red;   outline-offset: 3px; }
+
+when i hover it throw mouse it show me black box bordered the link, and when i reach it from tap its show me the red box bordered
+
