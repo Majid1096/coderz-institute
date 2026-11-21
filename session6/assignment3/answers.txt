@@ -1,0 +1,18 @@
+Error 1: font-size unit on h2
+Line: .course-card h2 { font-size: 1.5em; }
+em is follow the parent font-size (.course-card = 20px), so 1.5em = 30px.
+Fix: font-size: 1.5rem; (rem is relative to :root = 16px)
+Computed after: 24px
+
+Error 2: brand variable
+Line: color: var(--brnad);
+the variable name is wrong.
+changed --brand in :root to red. Before the fix nothing changed, after fixing and removing the inline style, both h1 and h2 turned red.
+Color seen on h1 before the fix: tomato because the (inline style)
+Color seen on h2 before the fix: #24364b
+
+Error 3: action hover
+Line: .action :hover { color: #6845a8; }
+the space makes it a descendant selector, so it targets hovered elements inside .action, not the link itself.
+Fix: .action:hover
+test: hovering over "View schedule" now changes the color to #6845a8. With Tab, an orange 3px outline appears.
