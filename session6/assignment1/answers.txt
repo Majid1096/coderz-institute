@@ -1,0 +1,12 @@
+CSS File Paths:
+- index.html: style.css
+- pages/courses.html: ../assignment1/style.css
+
+Selector for Full Course Status:
+
+
+article[data-status="full"] span.status {
+    background-color: lightgray;
+}
+Explanation:
+This selector finds the status of a full course and changes its background color to lightgray
