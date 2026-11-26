@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #F4F7F8;
+  color: #12546C;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.page {
+  width: 100%;
+  padding: 64px 20px;
+  text-align: center;
+}
+
+.workshop-card {
+  display: inline-block;
+  width: 100%;
+  max-width: 472px;
+  padding: 16px 28px 20px;
+  background: #FFFFFF;
+  border: 2px solid #12546C;
+  border-radius: 14px;
+  box-shadow: 0 8px 18px rgba(18, 84, 108, 0.15);
+  text-align: right;
+  vertical-align: top;
+}
+
+.availability {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 12px;
+  background: #E5F7E8;
+  color: #237A36;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 8px 0 10px;
+  color: #12546C;
+  font-size: 29px;
+  line-height: 1.5;
+}
+
+.description {
+  margin: 0 0 20px;
+  color: #5F6F78;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.actions {
+  text-align: right;
+  white-space: normal;
+}
+
+.button {
+  display: inline-block;
+  min-width: 116px;
+  margin-left: 8px;
+  padding: 10px 20px;
+  border: 2px solid #12546C;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-primary {
+  background: #12546C;
+  color: #FFFFFF;
+}
+
+.button-secondary {
+  background: #FFFFFF;
+  color: #12546C;
+}
+
+.note {
+  margin: 14px 0 0;
+  color: #5F6F78;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+@media (max-width: 420px) {
+  .page {
+    padding: 32px 14px;
+  }
+
+  .workshop-card {
+    padding: 16px 18px 18px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .button {
+    min-width: 0;
+    padding: 9px 15px;
+    font-size: 15px;
+  }
+}
+
+@page {
+  size: 960px 600px;
+  margin: 0;
+}
